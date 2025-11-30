@@ -75,7 +75,7 @@ Quy tắc này bắt buộc mọi phương thức trong class (trừ `constructo
 **Ví dụ về code không hợp lệ:**
 ```javascript
 class MyClass {
-    // 👎 LỖI: Thiếu thẻ @group-of
+    // LỖI: Thiếu thẻ @group-of
     myMethod() {
         // ...
     }
@@ -105,7 +105,7 @@ class MyClass {
     /** @group-of group-B */
     methodB1() {}
     /** @group-of group-A */
-    // 👎 LỖI: Nhóm 'group-A' không liền mạch.
+    // LỖI: Nhóm 'group-A' không liền mạch.
     methodA2() {}
 }
 ```
